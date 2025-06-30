@@ -1,0 +1,29 @@
+name: Feature Request
+description: Suggest an idea for this project
+labels: enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for wanting to improve LeiaGuard! Please fill in the form below.
+  - type: input
+    id: context
+    attributes:
+      label: Problem statement
+      description: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Share your idea or solution.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any alternative solutions or features you've considered.
+    validations:
+      required: false 

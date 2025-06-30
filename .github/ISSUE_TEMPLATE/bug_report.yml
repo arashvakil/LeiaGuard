@@ -1,0 +1,43 @@
+name: Bug Report
+description: File a bug report
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to help improve LeiaGuard!
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, Node version, browser, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+      description: How can we reproduce the bug?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+      description: Please paste any relevant logs or screenshots.
+    validations:
+      required: false 

@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1750767805760,
+      "tag": "0000_giant_butterfly",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1750770263500,
+      "tag": "0001_multi_use_invites",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1750781000000,
+      "tag": "0003_add_invite_code_active_status",
+      "breakpoints": true
+    }
+  ]
+}

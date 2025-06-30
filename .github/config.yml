@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/arashvakil/LeiaGuard/discussions/new?category=q-a
+    about: Ask a question about the project or how to use it.
+  - name: Request a feature
+    url: https://github.com/arashvakil/LeiaGuard/discussions/new?category=ideas
+    about: Suggest an idea for this project.

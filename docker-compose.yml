@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      # These should ideally be set in a .env file or Docker secrets in production
+      NEXTAUTH_SECRET: your-super-secret-key-change-this-in-production
+      NEXTAUTH_URL: http://localhost:3000
+      AUTH_TRUST_HOST: "true"
+      WIREGUARD_SERVER_IP: your-server-ip
+      WIREGUARD_SERVER_DOMAIN: your-domain.com
+      WIREGUARD_SERVER_PUBLIC_KEY: your-server-public-key
+      WIREGUARD_SERVER_PORT: 51820
+      WIREGUARD_NETWORK_RANGE: 10.0.0.0/24
+      DATABASE_URL: "file:./db/wireguard.db"
+    volumes:
+      - .:/app
+      - /app/node_modules # Exclude node_modules from host mount
+    # Command to run migrations and seed on startup (for development)
+    # In production, you might want a separate migration step
+    command: bash -c "npm run db:push && npm run db:seed && npm start"
