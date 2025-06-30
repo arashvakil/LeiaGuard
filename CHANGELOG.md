@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.2.0] - 2024-12-01
+## [1.2.0] - 2025-12-01
 
 ### Added
 - Comprehensive admin user management page
@@ -18,7 +18,7 @@ All notable changes to this project will be documented in this file.
 - Admin routing and authentication issues
 - WireGuard traffic routing and peer management
 
-## [1.1.0] - 2024-06-01
+## [1.1.0] - 2025-06-01
 
 ### Added
 - Device configuration pages with QR codes
@@ -28,7 +28,7 @@ All notable changes to this project will be documented in this file.
 - Enhanced user dashboard with device listings
 - Improved error handling and user feedback
 
-## [1.0.0] - 2024-06-01
+## [1.0.0] - 2025-06-01
 
 - Initial release with core VPN management features
 - Multi-use invitation code system
