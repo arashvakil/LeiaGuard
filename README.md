@@ -5,7 +5,6 @@ A comprehensive, secure VPN management system built with Next.js, featuring mult
 ![1](https://github.com/user-attachments/assets/770b99cb-e807-4d70-8fc3-ce1a4903ae5b)
 ![4](https://github.com/user-attachments/assets/33f8198d-0f32-4a49-8680-941e6b19a138)
 ![screencapture-leia-arash-nyc-dashboard-admin-2025-07-01-12_35_55](https://github.com/user-attachments/assets/c6335649-73e8-44f4-b1d3-dd314d03c8e2)
-![2](https://github.com/user-attachments/assets/0f796254-77cf-4d11-89ae-6b9ff1cdf079)
 
 ## 🚀 Quick Start
 
