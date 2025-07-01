@@ -1,8 +1,12 @@
-![screencapture-leia-arash-nyc-2025-07-01-12_33_27](https://github.com/user-attachments/assets/db8b5c7f-8d6c-44b0-8748-eae865540a1d)
 
 # WireGuard VPN Management System
 
 A comprehensive, secure VPN management system built with Next.js, featuring multi-use invitation codes, device management with QR codes, comprehensive admin tools, and automated WireGuard server integration.
+
+![1](https://github.com/user-attachments/assets/3f3f7d8d-a3f2-4a25-a0e0-b15af4539c89)
+![2](https://github.com/user-attachments/assets/4a438ce1-a6ed-458c-a966-8fcd6d6545ad)
+<img width="1145" alt="3" src="https://github.com/user-attachments/assets/6a312d3e-19e8-4771-819e-4e00f2916733" />
+
 
 ## 🚀 Quick Start
 
